@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>io.github.kprasad99</groupId>
+	<artifactId>spring-cloud-zk-discovery-example</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>spring-cloud-zk-discovery-example</name>
+	<description>Example project for spring cloud zookeeper discovery and LB with Ribbon</description>
+
+	<modules>
+		<module>example-server</module>
+		<module>example-proxy</module>
+	</modules>
+
+</project>

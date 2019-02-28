@@ -1,0 +1,9 @@
+server:
+  port: 8181
+spring:
+  application:
+    name: example-server
+  cloud:
+    zookeeper:
+      discovery:
+        enabled: true

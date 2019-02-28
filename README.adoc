@@ -1,0 +1,17 @@
+== Spring Cloud Zookeeper discovery example
+An example project to demo spring cloud zookeeper discovery.
+
+==== How to Run
+- Build the project
++
+[source, shell]
+```
+	$ mvn clean package -DskipTests
+```
+- Create docker instance
++
+[source, shell]
+```
+	$ docker-compose up
+```
+- Endpoint url is `http://<docker-host>:8086/hello`

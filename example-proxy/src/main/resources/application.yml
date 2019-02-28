@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: example-proxy
+  cloud:
+    zookeeper:
+      dependency:
+        resttemplate:
+          enabled: false
+      default-health-endpoint: /actuator/health
+      dependencies:
+        egServer:
+          path: /example-server
+          load-balancer-type: ROUND_ROBIN
+#ribbon:
+#  NIWSServerListFilterClassName: io.github.kprasad99.ribbon.ZkZoneAffinityFilter
